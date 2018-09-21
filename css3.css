@@ -1,6 +1,6 @@
 @charset "utf-8";
 html {
-	background-image: url(pic.jpg);background-size: cover;
+	background-image: url(pic.JPG);background-size: cover;
 	 background-repeat: no-repeat; 
 	 background-position: center center; 
 	 background-attachment: fixed;" 
@@ -109,6 +109,7 @@ h1 {
 	flex-wrap: wrap;
 }
 .grid-itm {
+	
 	background-color: rgba(255,192,203,0.5); 
 	margin-bottom: 30px;
 	flex: 0 1 calc(25% - 30px * 3/4);
