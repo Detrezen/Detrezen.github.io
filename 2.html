@@ -8,7 +8,7 @@
 </head>
 <body>
 	<header class="header">
-		<div class="logo"></div>
+		<div ><a href="index.html" class="logo"></a></div>
 		
 	</header>
 	<main class="main">
@@ -23,8 +23,22 @@
 				<input type="text" name="email" placeholder="e-mail" required>
 				<textarea name="message" style="max-width: 960px; min-width: 430px;">Оставьте свой отзыв =)
 				</textarea>
-				
-				<input type="submit" value="Отправить">
+
+				<legend>Откуда Вы о нас узнали?</legend>
+				<table>
+				<tr><td>СМС</td><td>  <label for="sms"><input id="sms" type="checkbox"></label> </td>	
+				<td>Интернет</td><td> <label for="internet"><input id="internet" type="checkbox"></label></td></tr>
+				<tr><td>Реклама</td><td> <label for="reklm"> <input id="reklm" type="checkbox"></label></td>	
+				<td>От друзей</td><td> <label for="human"> <input id="human" type="checkbox"></label></td></tr>	</table>
+   
+    
+				<br>Оцените наш сайт:
+				<input type="radio" name="delivery" value="5" checked>5
+				<input type="radio" name="delivery" value="4">4
+				<input type="radio" name="delivery" value="4">3
+				<input type="radio" name="delivery" value="4">2
+				<input type="radio" name="delivery" value="4">1
+				<br><input type="submit" value="Отправить">
 				</form>
 			</div>
 		
@@ -32,7 +46,7 @@
 		</div>
 		
 	</main>
-	<footer class="footer">
+	<footer class="footer" style="position: bottom: 0px">
 		ando.dead@gmail.com
 	</footer>
 </body>
